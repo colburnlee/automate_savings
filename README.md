@@ -1,12 +1,10 @@
-<br/>
-<p align="center">
-<a href="https://chain.link" target="_blank">
-<img src="./box-img-lg.png" width="225" alt="Chainlink Hardhat logo">
-</a>
-</p>
-<br/>
+This contract will handle a user:
+Approval - User approves contract to spend ETH/DAI
+Deposit - convert ETH -> WETH or DAI and send to contract
+Monitor - Evaluate price feed (oracle) information via Chainlink. Or TWAP from Uniswap, or MakerDAO
+Use Chainlink keepers to fire rebalance when needed
+Rebalance assets via 1Inch or Cow-swap
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smartcontractkit/hardhat-starter-kit)
 
 - [Chainlink Hardhat Starter Kit](#chainlink-hardhat-starter-kit)
 - [Getting Started](#getting-started)
