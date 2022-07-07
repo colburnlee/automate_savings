@@ -1,5 +1,9 @@
 This contract will handle a user:
 Approval - User approves contract to spend ETH/DAI
+ - IERC20 - Interface for ERC20
+ - ERC20 Token contract-
+ - Safemath Library
+ - CommonMath Library
 Deposit - convert ETH -> WETH or DAI and send to contract
 Monitor - Evaluate price feed (oracle) information via Chainlink. Or TWAP from Uniswap, or MakerDAO
 Use Chainlink keepers to fire rebalance when needed
